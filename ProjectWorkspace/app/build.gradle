@@ -31,5 +31,18 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+<<<<<<< HEAD
     implementation 'com.google.android.material:material:1.1.0'
+=======
+<<<<<<< HEAD
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+=======
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+>>>>>>> 817ee6b08bd02f8e6dbdefead2c66e40ec3ec2c7
+>>>>>>> 35d40ed839d32a17980a610aa00a30c5d41aecbd
 }

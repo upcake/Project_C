@@ -21,4 +21,5 @@
         app:menu="@menu/menu_bottom"
         app:itemIconTint="@drawable/item_color"
         app:itemTextColor="@drawable/item_color"/>
+
 </RelativeLayout>
