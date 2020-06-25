@@ -1,6 +1,7 @@
 package com.example.auto_medic;
 
 import androidx.appcompat.app.AppCompatActivity;
+<<<<<<< HEAD
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -16,10 +17,18 @@ public class SearchMedicineActivity extends AppCompatActivity {
     EditText searchText;
     Button searchBtn;
     Bundle bundle;
+=======
+
+import android.os.Bundle;
+
+public class SearchMedicineActivity extends AppCompatActivity {
+
+>>>>>>> 04e3b668224d3e3b32cd234fe5ca383bc30b842f
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_medicine);
+<<<<<<< HEAD
         searchBtn = findViewById(R.id.searchBtn);
 
 
@@ -51,5 +60,7 @@ public class SearchMedicineActivity extends AppCompatActivity {
     }
     public void fragBtnClick(Bundle bundle){
         this.bundle = bundle;
+=======
+>>>>>>> 04e3b668224d3e3b32cd234fe5ca383bc30b842f
     }
 }

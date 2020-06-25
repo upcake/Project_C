@@ -18,11 +18,18 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/AppTheme">
         <activity android:name=".MedicineInfoActivity">
 
         </activity>
         <activity android:name=".SearchMedicineActivity">
+=======
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".SearchMedicineActivity"></activity>
+        <activity android:name=".MapActivity"></activity>
+        <activity android:name=".MainActivity">
+>>>>>>> 04e3b668224d3e3b32cd234fe5ca383bc30b842f
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
