@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.widget.ProgressBar;
 
 public class FirstLoadingActivity extends AppCompatActivity {
 
@@ -14,6 +15,7 @@ public class FirstLoadingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first_loading);
 
+        //로딩화면(스플래쉬)
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -24,9 +26,5 @@ public class FirstLoadingActivity extends AppCompatActivity {
             }
         }, 2000);  // 로딩화면 시간
     }
-
-
-
-
 }
 
