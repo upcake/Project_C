@@ -10,6 +10,8 @@ CREATE TABLE manage_member(
 
 DROP TABLE manage_member;
 
+DELETE FROM manage_member;
+
 INSERT INTO manage_member
 VALUES ('aaaaa@naver.com', '@@aaa123', '아아AAA', '010-1111-1111');
 
