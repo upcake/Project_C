@@ -32,17 +32,17 @@
         <activity android:name=".LoadingActivity"/>
         <activity android:name=".JoinActivity"/>
         <activity android:name=".SocialLoginActivity"/>
-        <activity android:name=".FirstLoadingActivity"/>
+        <activity android:name=".FirstLoadingActivity"><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
         <activity android:name=".MedicineInfoActivity"/>
         <activity android:name=".SearchMedicineActivity"/>
 
         <activity android:name=".MainActivity">
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <meta-data
