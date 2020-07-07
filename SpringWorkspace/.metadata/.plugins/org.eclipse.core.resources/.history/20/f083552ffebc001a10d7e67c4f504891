@@ -1,0 +1,7 @@
+package com.csslect.app.dto;
+
+public class NaverMemberDTO {
+	private String naver_email;
+	private String naver_nickname;
+
+}
