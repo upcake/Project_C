@@ -1,0 +1,5 @@
+package com.csslect.app.dto;
+
+public class NaverMemberDTO {
+
+}
