@@ -17,7 +17,7 @@ import androidx.fragment.app.Fragment;
 public class MainFragment extends Fragment {
     //객체 선언
     TextView mainF_Title;
-    Button mainF_Search, mainF_Map;
+    ImageButton mainF_Search, mainF_Map;
 
     @Nullable
     @Override

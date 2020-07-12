@@ -8,7 +8,7 @@ import android.util.Log;
 public class CommonMethod {
 
 
-    public static String  ipConfig = "http://192.168.0.22:8080";
+    public static String ipConfig = "http://192.168.0.20:8080";
 
 
     // 네트워크에 연결되어 있는가
@@ -30,8 +30,4 @@ public class CommonMethod {
         }
 
     }
-
-
-
-
 }

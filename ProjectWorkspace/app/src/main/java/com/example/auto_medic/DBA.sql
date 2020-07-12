@@ -13,6 +13,9 @@ DROP TABLE manage_member;
 DELETE FROM manage_member;
 
 INSERT INTO manage_member
+VALUES ('a', 'a', 'a', '010');
+
+INSERT INTO manage_member
 VALUES ('aaaaa@naver.com', '@@aaa123', '아아AAA', '010-1111-1111');
 
 INSERT INTO manage_member
@@ -31,6 +34,12 @@ CREATE TABLE medicine_record(
     record_take_time VARCHAR2(30) NOT NULL,
     CONSTRAINT record_email_fk FOREIGN KEY(record_email) REFERENCES manage_member(member_email)
 );
+
+ALTER TABLE medicine_record MODIFY (record_email NOT NULL);
+
+ALTER TABLE medicine_record ADD (record_number NUMBER);
+
+ALTER TABLE medicine_record MODIFY (record_number NOT NULL);
 
 INSERT INTO medicine_record
 VALUES ('aaaaa@naver.com', '타이레놀 2정', TO_CHAR(SYSDATE, 'YYYY-MM-DD HH24:MI:SS'));
@@ -62,6 +71,15 @@ VALUES ('ccccc@naver.com', '게보린 1', TO_CHAR(SYSDATE - 8, 'YYYY-MM-DD HH24:
 INSERT INTO medicine_record
 VALUES ('ccccc@naver.com', '게보린 1', TO_CHAR(SYSDATE - 7, 'YYYY-MM-DD HH24:MI:SS'));
 
+INSERT INTO medicine_record
+VALUES ('a', 'ㅁㄴㅇㄹ', TO_CHAR('20-07-07 09:05'));
+
+INSERT INTO medicine_record
+VALUES ('a', 'ㅁㄴㅇㄹ', TO_CHAR('20-07-07 12:05'));
+
+INSERT INTO medicine_record
+VALUES ('a', 'ㅁㄴㅇㄹ', TO_CHAR('20-07-07 18:05'));
+
 DELETE FROM medicine_record;
 
 DROP TABLE medicine_record;
@@ -71,11 +89,13 @@ SELECT * FROM medicine_record;
 
 --비상 연락망 테이블---------------------------------------------------------------------------
 CREATE TABLE emergency_contact(
-    emergency_email VARCHAR2(50),
+    emergency_email VARCHAR2(50) NOT NULL,
     emergency_name VARCHAR2(30) NOT NULL,
     emergency_phonenum VARCHAR2(20) NOT NULL,
     CONSTRAINT emergency_email_fk FOREIGN KEY(emergency_email) REFERENCES manage_member(member_email)
 );
+
+ALTER TABLE emergency_contact MODIFY (emergency_email NOT NULL);
 
 INSERT INTO emergency_contact
 VALUES ('aaaaa@naver.com', '어머니', '0101111234');
@@ -100,3 +120,34 @@ DELETE FROM emergency_contact;
 DROP TABLE emergency_contact;
 
 SELECT * FROM emergency_contact;
+
+--알람 테이블------------------------------------------------------------------------------------
+CREATE TABLE alarm(
+    alarm_email VARCHAR2(50) NOT NULL,
+    alarm_title VARCHAR2(100) NOT NULL,
+    alarm_sunday CHAR(1) NOT NULL,
+    alarm_monday CHAR(1) NOT NULL,
+    alarm_tuesday CHAR(1) NOT NULL,
+    alarm_wednesday CHAR(1) NOT NULL,
+    alarm_thursday CHAR(1) NOT NULL,
+    alarm_friday CHAR(1) NOT NULL,
+    alarm_saturday CHAR(1) NOT NULL,
+    alarm_times CHAR(1) NOT NULL,
+    alarm_ringtime1_hour VARCHAR2(2),
+    alarm_ringtime1_minute VARCHAR2(2),
+    alarm_ringtime2_hour VARCHAR2(2),
+    alarm_ringtime2_minute VARCHAR2(2),
+    alarm_ringtime3_hour VARCHAR2(2),
+    alarm_ringtime3_minute VARCHAR2(2),
+    alarm_volume VARCHAR2(3) NOT NULL,
+    alarm_bell VARCHAR2(100),
+    alarm_vib CHAR(1),
+    alarm_repeat VARCHAR2(2),
+    CONSTRAINT alarm_email_fk FOREIGN KEY(alarm_email) REFERENCES manage_member(member_email)
+);
+
+SELECT * FROM alarm;
+
+DROP TABLE alarm;
+
+COMMIT;

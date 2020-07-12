@@ -6,93 +6,238 @@
     android:layout_height="match_parent"
     android:background="#FFEBEE">
 
-    <TextView
-        android:id="@+id/alarmF_NextAlarm_Title"
+    <!--=================================기본 가이드라인=========================================-->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/alarmF_TopPadding"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="10"
-        android:text="다음 알람"
-        android:textColor="#676262"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="@+id/guideline5"
-        app:layout_constraintTop_toTopOf="@+id/guideline7" />
-
-    <TextView
-        android:id="@+id/alarmF_NextAlarm"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="12시간 40분 남음"
-        android:textColor="#000000"
-        android:textSize="28sp"
-        app:layout_constraintStart_toStartOf="@+id/guideline5"
-        app:layout_constraintTop_toBottomOf="@+id/alarmF_NextAlarm_Title" />
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline5"
+        android:id="@+id/alarmF_BottomPadding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintGuide_end="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/alarmF_LeftPadding"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp" />
+        app:layout_constraintGuide_begin="16dp" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp" />
-
-    <TextView
-        android:id="@+id/alarmF_SetBluetooth"
-        android:layout_width="0dp"
-        android:layout_height="81dp"
-        android:background="#E3F2FD"
-        android:gravity="center_vertical"
-        android:paddingLeft="30dp"
-        android:text="블루투스 알람 설정"
-        android:textColor="#2E2B2B"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/guideline9"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline5"
-        app:layout_constraintTop_toTopOf="@+id/guideline8" />
-
-    <ImageButton
-        android:id="@+id/alarmF_BlueOnOff"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:src="@drawable/bluetooth_on"
-        android:background="#004491"
-        app:layout_constraintBottom_toTopOf="@+id/guideline10"
-        app:layout_constraintEnd_toEndOf="@+id/alarmF_SetBluetooth"
-        app:layout_constraintTop_toTopOf="@+id/guideline8"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="110dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline9"
+        android:id="@+id/alarmF_RightBottom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintGuide_end="20dp" />
+        app:layout_constraintGuide_end="16dp" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline10"
+        android:id="@+id/alarmF_FirstBottom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="190dp" />
+        app:layout_constraintGuide_begin="110dp" />
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/alarmF_SecondBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="210dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/alarmF_FABG1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="76dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/alarmF_FABG2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="86dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/alarmF_FABG3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="142dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/alarmF_FABG4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="152dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/alarmF_FABG5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="450dp" />
+    <!--=================================기본 가이드라인=========================================-->
+
+    <!--=================================플로팅 액션 버튼========================================-->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/alarmF_FABG6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="339dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/alarmF_SetBluetooth_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#29B6F6"
+        android:clickable="true"
+        android:src="@drawable/baseline_settings_bluetooth_white_48dp"
+        app:layout_constraintBottom_toTopOf="@+id/alarmF_FABG4"
+        app:layout_constraintEnd_toStartOf="@+id/alarmF_RightBottom"
+        app:tint="@android:color/white" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/alarmF_AddAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#29B6F6"
+        android:clickable="true"
+        android:src="@drawable/baseline_alarm_add_white_48dp"
+        app:layout_constraintBottom_toTopOf="@+id/alarmF_FABG2"
+        app:layout_constraintEnd_toStartOf="@+id/alarmF_RightBottom"
+        app:tint="#FFFFFF" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/alarmF_Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="#1E88E5"
+        app:layout_constraintBottom_toTopOf="@+id/alarmF_BottomPadding"
+        app:layout_constraintEnd_toStartOf="@+id/alarmF_RightBottom"
+        app:srcCompat="@drawable/baseline_add_24"
+        app:tint="#FFFFFF" />
+    <!--=================================플로팅 액션 버튼========================================-->
+
+    <!--=================================첫째 칸=================================================-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFEBEE"
+        app:layout_constraintBottom_toTopOf="@+id/alarmF_FirstBottom"
+        app:layout_constraintEnd_toStartOf="@+id/alarmF_RightBottom"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/alarmF_LeftPadding"
+        app:layout_constraintTop_toTopOf="@+id/alarmF_TopPadding">
+
+        <TextView
+            android:id="@+id/alarmF_NextAlarm_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="다음 알람"
+            android:textColor="#676262"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/alarmF_NextAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="12시간 40분 남음"
+            android:textColor="#000000"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/alarmF_NextAlarm_Title" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!--=================================첫째 칸=================================================-->
+
+    <!--=================================둘째 칸=================================================-->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toTopOf="@+id/alarmF_SecondBottom"
+        app:layout_constraintEnd_toStartOf="@+id/alarmF_RightBottom"
+        app:layout_constraintStart_toStartOf="@+id/alarmF_LeftPadding"
+        app:layout_constraintTop_toTopOf="@+id/alarmF_FirstBottom">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/alarmF_SetBluetooth"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:background="#E3F2FD"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                android:text="블루투스 알람"
+                android:textColor="#2E2B2B"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/alarmF_BlueOnOff"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:background="#004491"
+                android:src="@drawable/bluetooth_on"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/alarmF_RightBottom"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/alarmF_LeftPadding"
+        app:layout_constraintTop_toTopOf="@+id/alarmF_SecondBottom"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/alarmF_RecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--=================================둘째 칸=================================================-->
 </androidx.constraintlayout.widget.ConstraintLayout>
