@@ -112,7 +112,7 @@ public class AlarmSelect extends AsyncTask<Void, Void, Void> {
     }
 
     public AlarmDTO readMessage(JsonReader reader) throws IOException {
-        String alarm_Email = "", alarm_Title = "", alarm_Sunday = "", alarm_Monday = "", alarm_Tuesday = "";
+        String alarm_Email = "", alarm_Id = "",alarm_Title = "", alarm_Sunday = "", alarm_Monday = "", alarm_Tuesday = "";
         String alarm_Wednesday = "", alarm_Thursday = "", alarm_Friday = "", alarm_Saturday = "", alarm_Times ="";
         String alarm_Ringtime1_Hour = "", alarm_Ringtime1_Minute = "", alarm_Ringtime2_Hour = "", alarm_Ringtime2_Minute = "", alarm_Ringtime3_Hour = "";
         String alarm_Ringtime3_Minute = "", alarm_Volume = "", alarm_Bell = "", alarm_Vib = "", alarm_Repeat = "";
@@ -122,7 +122,9 @@ public class AlarmSelect extends AsyncTask<Void, Void, Void> {
             String readStr = reader.nextName();
             if (readStr.equals("alarm_Email")) {
                 alarm_Email = reader.nextString();
-            } else if (readStr.equals("alarm_Title")) {
+            } else if (readStr.equals("alarm_Id")) {
+                alarm_Id = reader.nextString();
+            }  else if (readStr.equals("alarm_Title")) {
                 alarm_Title = reader.nextString();
             } else if (readStr.equals("alarm_Sunday")) {
                 alarm_Sunday = reader.nextString();
@@ -165,11 +167,11 @@ public class AlarmSelect extends AsyncTask<Void, Void, Void> {
             }
         }
         reader.endObject();
-        Log.d("listselect: dto", alarm_Email + "," + alarm_Title + "," + alarm_Sunday + "," + alarm_Monday + "," + alarm_Tuesday + "," +
+        Log.d("listselect: dto", alarm_Email + "," + alarm_Id + "," + alarm_Title + "," + alarm_Sunday + "," + alarm_Monday + "," + alarm_Tuesday + "," +
                 alarm_Wednesday + "," + alarm_Thursday + "," + alarm_Friday + "," + alarm_Saturday + "," + alarm_Times + "," +
                 alarm_Ringtime1_Hour + "," + alarm_Ringtime1_Minute + "," + alarm_Ringtime2_Hour + "," + alarm_Ringtime2_Minute + "," + alarm_Ringtime3_Hour + "," +
                 alarm_Ringtime3_Minute + "," + alarm_Volume + "," + alarm_Bell + "," + alarm_Vib + "," + alarm_Repeat);
-        return new AlarmDTO(alarm_Email, alarm_Title, alarm_Sunday, alarm_Monday, alarm_Tuesday,
+        return new AlarmDTO(alarm_Email, alarm_Id,alarm_Title, alarm_Sunday, alarm_Monday, alarm_Tuesday,
                 alarm_Wednesday, alarm_Thursday, alarm_Friday, alarm_Saturday, alarm_Times,
                 alarm_Ringtime1_Hour, alarm_Ringtime1_Minute, alarm_Ringtime2_Hour, alarm_Ringtime2_Minute, alarm_Ringtime3_Hour,
                 alarm_Ringtime3_Minute, alarm_Volume, alarm_Bell, alarm_Vib, alarm_Repeat);

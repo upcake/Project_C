@@ -31,8 +31,10 @@ import android.widget.ToggleButton;
 
 import com.example.auto_medic.ATask.AlarmInsert;
 import com.example.auto_medic.Dto.AlarmDTO;
+import static com.example.auto_medic.AlarmFragment.dtoArrayList;
 
 import java.util.concurrent.ExecutionException;
+
 
 public class AddAlarmActivity extends AppCompatActivity {
     //객체 선언//
@@ -286,6 +288,11 @@ public class AddAlarmActivity extends AppCompatActivity {
             public void onClick(View view) {
                 dto = new AlarmDTO();
                 dto.setAlarm_Email("a");
+                if(dtoArrayList.size() >= 1) {
+                    dto.setAlarm_Id("" + (dtoArrayList.size() + Integer.parseInt((String) dtoArrayList.get(dtoArrayList.size() - 1).getAlarm_Id())) );
+                } else {
+                    dto.setAlarm_Id("" + 1);
+                }
                 if (setName_Name.getText().length() < 1) {
                     dto.setAlarm_Title("복용 알람");
                 } else {
@@ -319,7 +326,7 @@ public class AddAlarmActivity extends AppCompatActivity {
                                 dto.getAlarm_Ringtime3_Minute() + " / " + dto.getAlarm_Volume() + " / " + dto.getAlarm_Bell() + " / " + dto.getAlarm_Vib() + " / " + dto.getAlarm_Repeat());
                 
                 AlarmInsert alarmInsert = new AlarmInsert(
-                        dto.getAlarm_Email(), dto.getAlarm_Title(), dto.getAlarm_Sunday(), dto.getAlarm_Monday(), dto.getAlarm_Tuesday(),
+                        dto.getAlarm_Email(), dto.getAlarm_Id(),dto.getAlarm_Title(), dto.getAlarm_Sunday(), dto.getAlarm_Monday(), dto.getAlarm_Tuesday(),
                         dto.getAlarm_Wednesday(), dto.getAlarm_Thursday(), dto.getAlarm_Friday(), dto.getAlarm_Saturday(), dto.getAlarm_Times(),
                         dto.getAlarm_Ringtime1_Hour(), dto.getAlarm_Ringtime1_Minute(), dto.getAlarm_Ringtime2_Hour(), dto.getAlarm_Ringtime2_Minute(), dto.getAlarm_Ringtime3_Hour(),
                         dto.getAlarm_Ringtime3_Minute(), dto.getAlarm_Volume(), dto.getAlarm_Bell(), dto.getAlarm_Vib(), dto.getAlarm_Repeat());

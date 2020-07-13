@@ -24,30 +24,28 @@ import static com.example.auto_medic.Common.CommonMethod.ipConfig;
 public class AlarmInsert extends AsyncTask<Void, Void, String> {
     private static final String TAG = "AlarmInsert";
 
-    CharSequence alarm_Email, alarm_Title, alarm_Sunday, alarm_Monday, alarm_Tuesday, alarm_Wednesday,
+    CharSequence alarm_Email, alarm_Id, alarm_Title, alarm_Sunday, alarm_Monday, alarm_Tuesday, alarm_Wednesday,
             alarm_Thursday, alarm_Friday, alarm_Saturday, alarm_Times, alarm_Ringtime1_Hour, alarm_Ringtime1_Minute,
             alarm_Ringtime2_Hour, alarm_Ringtime2_Minute, alarm_Ringtime3_Hour, alarm_Ringtime3_Minute, alarm_Volume, alarm_Bell, alarm_Vib, alarm_Repeat;
     AlarmDTO dto = new AlarmDTO();
 
-    public AlarmInsert(CharSequence alarm_Email, CharSequence alarm_Title, CharSequence alarm_Sunday, CharSequence alarm_Monday, CharSequence alarm_Tuesday, CharSequence alarm_Wednesday, CharSequence alarm_Thursday, CharSequence alarm_Friday, CharSequence alarm_Saturday, CharSequence alarm_Times, CharSequence alarm_Ringtime1_Hour, CharSequence alarm_Ringtime1_Minute, CharSequence alarm_Ringtime2_Hour, CharSequence alarm_Ringtime2_Minute, CharSequence alarm_Ringtime3_Hour, CharSequence alarm_Ringtime3_Minute, CharSequence alarm_Volume, CharSequence alarm_Bell, CharSequence alarm_Vib, CharSequence alarm_Repeat) {
+    public AlarmInsert(CharSequence alarm_Email, CharSequence alarm_Id, CharSequence alarm_Title, CharSequence alarm_Sunday, CharSequence alarm_Monday, CharSequence alarm_Tuesday, CharSequence alarm_Wednesday, CharSequence alarm_Thursday, CharSequence alarm_Friday, CharSequence alarm_Saturday, CharSequence alarm_Times, CharSequence alarm_Ringtime1_Hour, CharSequence alarm_Ringtime1_Minute, CharSequence alarm_Ringtime2_Hour, CharSequence alarm_Ringtime2_Minute, CharSequence alarm_Ringtime3_Hour, CharSequence alarm_Ringtime3_Minute, CharSequence alarm_Volume, CharSequence alarm_Bell, CharSequence alarm_Vib, CharSequence alarm_Repeat) {
         this.alarm_Email = alarm_Email;
+        this.alarm_Id = alarm_Id;
         this.alarm_Title = alarm_Title;
         this.alarm_Sunday = alarm_Sunday;
         this.alarm_Monday = alarm_Monday;
         this.alarm_Tuesday = alarm_Tuesday;
-
         this.alarm_Wednesday = alarm_Wednesday;
         this.alarm_Thursday = alarm_Thursday;
         this.alarm_Friday = alarm_Friday;
         this.alarm_Saturday = alarm_Saturday;
         this.alarm_Times = alarm_Times;
-
         this.alarm_Ringtime1_Hour = alarm_Ringtime1_Hour;
         this.alarm_Ringtime1_Minute = alarm_Ringtime1_Minute;
         this.alarm_Ringtime2_Hour = alarm_Ringtime2_Hour;
         this.alarm_Ringtime2_Minute = alarm_Ringtime2_Minute;
         this.alarm_Ringtime3_Hour = alarm_Ringtime3_Hour;
-
         this.alarm_Ringtime3_Minute = alarm_Ringtime3_Minute;
         this.alarm_Volume = alarm_Volume;
         this.alarm_Bell = alarm_Bell;
@@ -72,6 +70,7 @@ public class AlarmInsert extends AsyncTask<Void, Void, String> {
 
             // 문자열 및 데이터 추가
             builder.addTextBody("alarm_Email", (String) alarm_Email, ContentType.create("Multipart/related", "UTF-8"));
+            builder.addTextBody("alarm_Id", (String) alarm_Id, ContentType.create("Multipart/related", "UTF-8"));
             builder.addTextBody("alarm_Title", (String) alarm_Title, ContentType.create("Multipart/related", "UTF-8"));
             builder.addTextBody("alarm_Sunday", (String) alarm_Sunday, ContentType.create("Multipart/related", "UTF-8"));
             builder.addTextBody("alarm_Monday", (String) alarm_Monday, ContentType.create("Multipart/related", "UTF-8"));

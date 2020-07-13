@@ -1,10 +1,8 @@
 package com.example.auto_medic;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -45,7 +43,7 @@ public class AlarmFragment extends Fragment {
 
     //리사이클러 뷰
     AlarmSelect alarmSelect;
-    ArrayList<AlarmDTO> dtoArrayList;
+    public static ArrayList<AlarmDTO> dtoArrayList;
     RecyclerView alarmF_RecyclerView;
     AlarmRecyclerViewAdapter adapter;
     public static AlarmDTO selItem = null;
@@ -161,7 +159,7 @@ public class AlarmFragment extends Fragment {
         });
 
         //리사이클러 뷰 시작
-        dtoArrayList = new ArrayList();
+         dtoArrayList = new ArrayList();
         adapter = new AlarmRecyclerViewAdapter(getContext(), dtoArrayList);
         alarmF_RecyclerView = rootView.findViewById(R.id.alarmF_RecyclerView);
 

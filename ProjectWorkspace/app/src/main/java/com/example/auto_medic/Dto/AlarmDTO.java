@@ -3,7 +3,7 @@ package com.example.auto_medic.Dto;
 import java.io.Serializable;
 
 public class AlarmDTO implements Serializable {
-    CharSequence alarm_Email, alarm_Title, alarm_Sunday, alarm_Monday, alarm_Tuesday;
+    CharSequence alarm_Email, alarm_Id,alarm_Title, alarm_Sunday, alarm_Monday, alarm_Tuesday;
     CharSequence alarm_Wednesday, alarm_Thursday, alarm_Friday, alarm_Saturday, alarm_Times;
     CharSequence alarm_Ringtime1_Hour, alarm_Ringtime1_Minute, alarm_Ringtime2_Hour, alarm_Ringtime2_Minute, alarm_Ringtime3_Hour;
     CharSequence alarm_Ringtime3_Minute, alarm_Volume, alarm_Bell, alarm_Vib, alarm_Repeat;
@@ -11,8 +11,9 @@ public class AlarmDTO implements Serializable {
     public AlarmDTO() {
     }
 
-    public AlarmDTO(CharSequence alarm_Email, CharSequence alarm_Title, CharSequence alarm_Sunday, CharSequence alarm_Monday, CharSequence alarm_Tuesday, CharSequence alarm_Wednesday, CharSequence alarm_Thursday, CharSequence alarm_Friday, CharSequence alarm_Saturday, CharSequence alarm_Times, CharSequence alarm_Ringtime1_Hour, CharSequence alarm_Ringtime1_Minute, CharSequence alarm_Ringtime2_Hour, CharSequence alarm_Ringtime2_Minute, CharSequence alarm_Ringtime3_Hour, CharSequence alarm_Ringtime3_Minute, CharSequence alarm_Volume, CharSequence alarm_Bell, CharSequence alarm_Vib, CharSequence alarm_Repeat) {
+    public AlarmDTO(CharSequence alarm_Email, CharSequence alarm_Id, CharSequence alarm_Title, CharSequence alarm_Sunday, CharSequence alarm_Monday, CharSequence alarm_Tuesday, CharSequence alarm_Wednesday, CharSequence alarm_Thursday, CharSequence alarm_Friday, CharSequence alarm_Saturday, CharSequence alarm_Times, CharSequence alarm_Ringtime1_Hour, CharSequence alarm_Ringtime1_Minute, CharSequence alarm_Ringtime2_Hour, CharSequence alarm_Ringtime2_Minute, CharSequence alarm_Ringtime3_Hour, CharSequence alarm_Ringtime3_Minute, CharSequence alarm_Volume, CharSequence alarm_Bell, CharSequence alarm_Vib, CharSequence alarm_Repeat) {
         this.alarm_Email = alarm_Email;
+        this.alarm_Id = alarm_Id;
         this.alarm_Title = alarm_Title;
         this.alarm_Sunday = alarm_Sunday;
         this.alarm_Monday = alarm_Monday;
@@ -40,6 +41,14 @@ public class AlarmDTO implements Serializable {
 
     public void setAlarm_Email(CharSequence alarm_Email) {
         this.alarm_Email = alarm_Email;
+    }
+
+    public CharSequence getAlarm_Id() {
+        return alarm_Id;
+    }
+
+    public void setAlarm_Id(CharSequence alarm_Id) {
+        this.alarm_Id = alarm_Id;
     }
 
     public CharSequence getAlarm_Title() {

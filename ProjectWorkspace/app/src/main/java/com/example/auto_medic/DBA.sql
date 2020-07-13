@@ -124,6 +124,7 @@ SELECT * FROM emergency_contact;
 --알람 테이블------------------------------------------------------------------------------------
 CREATE TABLE alarm(
     alarm_email VARCHAR2(50) NOT NULL,
+    alarm_id VARCHAR2(20),
     alarm_title VARCHAR2(100) NOT NULL,
     alarm_sunday CHAR(1) NOT NULL,
     alarm_monday CHAR(1) NOT NULL,
@@ -143,7 +144,7 @@ CREATE TABLE alarm(
     alarm_bell VARCHAR2(100),
     alarm_vib CHAR(1),
     alarm_repeat VARCHAR2(2),
-    CONSTRAINT alarm_email_fk FOREIGN KEY(alarm_email) REFERENCES manage_member(member_email)
+    CONSTRAINT alarm_email_id_pk PRIMARY KEY(alarm_email, alarm_id)
 );
 
 SELECT * FROM alarm;
