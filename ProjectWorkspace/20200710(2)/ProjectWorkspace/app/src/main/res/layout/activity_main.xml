@@ -1,24 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
+<<<<<<< HEAD:ProjectWorkspace/20200710(2)/ProjectWorkspace/app/src/main/res/layout/activity_main.xml
     android:layout_height="match_parent">
+=======
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    >
+>>>>>>> 71d49f292e4e9e569de4a350b286bbf8f064dd8d:ProjectWorkspace/app/src/main/res/layout/activity_main.xml
 
-    <FrameLayout
-        android:id="@+id/container"
+        <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        android:layout_height="0dp"
+        android:layout_weight="92"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="8"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         app:itemBackground="@color/colorPrimary"
         app:menu="@menu/menu_bottom"
         app:itemIconTint="@drawable/item_color"
         app:itemTextColor="@drawable/item_color"/>
+<<<<<<< HEAD:ProjectWorkspace/20200710(2)/ProjectWorkspace/app/src/main/res/layout/activity_main.xml
 </RelativeLayout>
+=======
+
+</LinearLayout>
+>>>>>>> 71d49f292e4e9e569de4a350b286bbf8f064dd8d:ProjectWorkspace/app/src/main/res/layout/activity_main.xml

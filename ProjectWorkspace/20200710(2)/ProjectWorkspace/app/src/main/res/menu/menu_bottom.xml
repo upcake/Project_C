@@ -5,6 +5,7 @@
         android:id="@+id/tab1"
         app:showAsAction="ifRoom"
         android:enabled="true"
+<<<<<<< HEAD:ProjectWorkspace/20200710(2)/ProjectWorkspace/app/src/main/res/menu/menu_bottom.xml
         android:icon="@android:drawable/ic_dialog_email"
         android:title="이메일"/>
 
@@ -18,4 +19,20 @@
         app:showAsAction="ifRoom"
         android:icon="@android:drawable/ic_dialog_map"
         android:title="위치"/>
+=======
+        android:icon="@drawable/bottom_nav_alarm_48dp"
+        android:title="알람" />
+    <item
+        android:id="@+id/tab2"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/bottom_nav_home_48dp"
+        android:title="홈" />
+    <item
+        android:id="@+id/tab3"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/bottom_nav_mypage_48dp"
+        android:title="마이페이지" />
+>>>>>>> 71d49f292e4e9e569de4a350b286bbf8f064dd8d:ProjectWorkspace/app/src/main/res/menu/menu_bottom.xml
 </menu>
