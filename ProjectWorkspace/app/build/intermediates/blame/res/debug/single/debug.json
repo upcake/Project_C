@@ -1,0 +1,466 @@
+[
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_control_vol.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\item_control_vol.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_loading.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\activity_loading.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_empty_block.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\item_empty_block.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_check_black_48dp.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\baseline_check_black_48dp.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_set_time_button_text.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\set_time_button_text.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_snooze_black_48dp.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\baseline_snooze_black_48dp.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_bottom.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\menu\\menu_bottom.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_alarm_add_title.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\item_alarm_add_title.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_day_button_state.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\day_button_state.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_set_name.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\item_set_name.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_cancel.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\item_cancel.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_machine2.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\machine2.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_alarm_off_gray_48dp.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\ic_alarm_off_gray_48dp.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_set_time_button2_off.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\set_time_button2_off.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_snsloginbtn_naver.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\snsloginbtn_naver.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_alarm_on_black_48dp.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\ic_alarm_on_black_48dp.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_social_login.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\activity_social_login.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_default_profile.jpg.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\default_profile.jpg"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_snooze_white_48dp.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\ic_snooze_white_48dp.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_map.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_machine1.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\machine1.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_searchresultfragment.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\searchresultfragment.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_times_button1_state.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\times_button1_state.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bluetooth_off.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\bluetooth_off.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_times_button1_on.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\times_button1_on.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\anim_rotate.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\anim\\rotate.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_set_time_button3_state.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\set_time_button3_state.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_info.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\activity_my_info.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_confirm.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\item_confirm.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_audiotrack_black_48dp.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\baseline_audiotrack_black_48dp.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_alarm_update.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\activity_alarm_update.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_alarm_white_48dp.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\ic_alarm_white_48dp.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_volume_up_black_48dp.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\baseline_volume_up_black_48dp.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_bluetooth_title.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\item_bluetooth_title.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_times_button3_state.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\times_button3_state.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\anim_disappear2.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\anim\\disappear2.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_set_time_button2_state.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\set_time_button2_state.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_remove_circle_outline_black_30dp.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\ic_remove_circle_outline_black_30dp.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_vibration_black_48dp.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\baseline_vibration_black_48dp.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_settings_bluetooth_white_48dp.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\baseline_settings_bluetooth_white_48dp.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_alarm_item.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\item_alarm_item.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_snsloginbtn_kakao.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\snsloginbtn_kakao.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_set_time_button1_off.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\set_time_button1_off.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_set_time_button3_on.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\set_time_button3_on.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_set_time_button1_on.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\set_time_button1_on.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_emergencyaddress.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\activity_emergencyaddress.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\anim_rotate_reverse.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\anim\\rotate_reverse.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_alarm.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\fragment_alarm.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_day_button_off.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\day_button_off.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_select_times.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\item_select_times.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_alarm_update_title.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\item_alarm_update_title.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_calendar.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\activity_calendar.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bluetooth.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\activity_bluetooth.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_alarm_add_white_48dp.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\baseline_alarm_add_white_48dp.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_close_white_48dp.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\baseline_close_white_48dp.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_select_day.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\item_select_day.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_check_white_48dp.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\baseline_check_white_48dp.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_set_time_button1_state.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\set_time_button1_state.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_join.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\activity_join.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_item_color.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\item_color.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_addresssetting.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\activity_addresssetting.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_times_button2_state.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\times_button2_state.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\anim_appear.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\anim\\appear.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_medicine_info.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\activity_medicine_info.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_times_button2_on.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\times_button2_on.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_times_button3_on.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\times_button3_on.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_nav_home_48dp.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\bottom_nav_home_48dp.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_times_button1_off.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\times_button1_off.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_emergencycontact.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\activity_emergencycontact.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_nav_alarm_48dp.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\bottom_nav_alarm_48dp.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_select_bell.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\item_select_bell.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_control_vib.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\item_control_vib.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_set_time_button3_off.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\set_time_button3_off.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bluetooth_on.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\bluetooth_on.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\anim_disappear.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\anim\\disappear.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_alarm_ringing.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\activity_alarm_ringing.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_times_button2_off.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\times_button2_off.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_close_black_48dp.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\baseline_close_black_48dp.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_assignment_black_48dp.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\ic_assignment_black_48dp.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_add_24.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\baseline_add_24.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_mypage.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\fragment_mypage.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_day_button_on.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\day_button_on.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_alarm_off_white_48dp.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\ic_alarm_off_white_48dp.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search_medicine.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\activity_search_medicine.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_repeat_set.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\item_repeat_set.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_alarm.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\activity_add_alarm.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_day_button_text.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\day_button_text.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\anim_appear2.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\anim\\appear2.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_devicesetting.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\activity_devicesetting.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_first_loading.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\activity_first_loading.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_times_button3_off.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\times_button3_off.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_set_time_button2_on.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\set_time_button2_on.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\xml_filepaths.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\xml\\filepaths.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_control_vol_vib.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\layout\\item_control_vol_vib.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_settings_bluetooth_black_48dp.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\baseline_settings_bluetooth_black_48dp.png"
+    },
+    {
+        "merged": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_nav_mypage_48dp.png.flat",
+        "source": "D:\\ProjectWorkspace\\ProjectWorkspace\\app\\src\\main\\res\\drawable\\bottom_nav_mypage_48dp.png"
+    }
+]
