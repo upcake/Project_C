@@ -1,0 +1,43 @@
+package com.csslect.app.command;
+
+import org.springframework.ui.Model;
+
+import com.csslect.app.dao.ANDao;
+
+public class AlarmUpdateMultiCommand implements ACommand {
+
+	@Override
+	public void execute(Model model) {
+		String alarm_Email = (String) model.asMap().get("alarm_Email");
+		String alarm_Id= (String) model.asMap().get("alarm_Id");
+		String alarm_Title = (String) model.asMap().get("alarm_Title");
+		String alarm_Sunday = (String) model.asMap().get("alarm_Sunday");
+		String alarm_Monday = (String) model.asMap().get("alarm_Monday");
+		String alarm_Tuesday = (String) model.asMap().get("alarm_Tuesday");
+		
+		String alarm_Wednesday = (String) model.asMap().get("alarm_Wednesday");
+		String alarm_Thursday = (String) model.asMap().get("alarm_Thursday");
+		String alarm_Friday = (String) model.asMap().get("alarm_Friday");
+		String alarm_Saturday = (String) model.asMap().get("alarm_Saturday");
+		String alarm_Times = (String) model.asMap().get("alarm_Times");
+		
+		String alarm_Ringtime1_Hour = (String) model.asMap().get("alarm_Ringtime1_Hour");
+		String alarm_Ringtime1_Minute = (String) model.asMap().get("alarm_Ringtime1_Minute");
+		String alarm_Ringtime2_Hour = (String) model.asMap().get("alarm_Ringtime2_Hour");
+		String alarm_Ringtime2_Minute = (String) model.asMap().get("alarm_Ringtime2_Minute");
+		String alarm_Ringtime3_Hour = (String) model.asMap().get("alarm_Ringtime3_Hour");
+		
+		String alarm_Ringtime3_Minute = (String) model.asMap().get("alarm_Ringtime3_Minute");
+		String alarm_Volume = (String) model.asMap().get("alarm_Volume");
+		String alarm_Bell = (String) model.asMap().get("alarm_Bell");
+		String alarm_Vib = (String) model.asMap().get("alarm_Vib");
+		String alarm_Repeat = (String) model.asMap().get("alarm_Repeat");
+		
+		ANDao adao = new ANDao();
+							
+		adao.alarmUpdateMulti(alarm_Email, alarm_Id, alarm_Title, alarm_Sunday, alarm_Monday, alarm_Tuesday,
+				alarm_Wednesday, alarm_Thursday, alarm_Friday, alarm_Saturday, alarm_Times,
+				alarm_Ringtime1_Hour, alarm_Ringtime1_Minute, alarm_Ringtime2_Hour, alarm_Ringtime2_Minute, alarm_Ringtime3_Hour,
+				alarm_Ringtime3_Minute, alarm_Volume, alarm_Bell, alarm_Vib, alarm_Repeat);
+	}
+}
