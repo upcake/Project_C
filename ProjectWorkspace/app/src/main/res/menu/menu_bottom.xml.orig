@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<<<<<<< HEAD
+    <!--showAsAction="ifRoom" 공간이 있으면 보이게 설정-->
+    <!--enabled="true" 클릭 가능 여부 설정-->
+=======
+>>>>>>> 5eeffec375d5c8ee54f9da45c30cba1910eceeae
+    <item
+        android:id="@+id/tab1"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+<<<<<<< HEAD
+        android:icon="@drawable/bottom_nav_alarm_48dp"
+        android:title="알람" />
+    <item
+        android:id="@+id/tab2"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/bottom_nav_home_48dp"
+        android:title="홈" />
+    <item
+        android:id="@+id/tab3"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/bottom_nav_mypage_48dp"
+        android:title="마이페이지" />
+=======
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="이메일"/>
+
+    <item
+        android:id="@+id/tab2"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="정보"/>
+    <item
+        android:id="@+id/tab3"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="위치"/>
+>>>>>>> 5eeffec375d5c8ee54f9da45c30cba1910eceeae
+</menu>
