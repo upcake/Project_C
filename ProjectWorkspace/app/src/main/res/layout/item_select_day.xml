@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="#FFEBEE">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/day_Parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ToggleButton
+                android:id="@+id/day_Sun"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/day_button_state"
+                android:textColor="@drawable/day_button_text"
+                android:textOff="일"
+                android:textOn="일"
+                app:layout_constraintBottom_toTopOf="@+id/day_Guide2"
+                app:layout_constraintEnd_toStartOf="@+id/day_Mon"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/day_Guide1"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <ToggleButton
+                android:id="@+id/day_Mon"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/day_button_state"
+                android:textColor="@drawable/day_button_text"
+                android:textOff="월"
+                android:textOn="월"
+                app:layout_constraintBottom_toTopOf="@+id/day_Guide2"
+                app:layout_constraintEnd_toStartOf="@+id/day_Tue"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintStart_toEndOf="@+id/day_Sun"
+                app:layout_constraintTop_toTopOf="@+id/day_Guide1"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <ToggleButton
+                android:id="@+id/day_Tue"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/day_button_state"
+                android:textColor="@drawable/day_button_text"
+                android:textOff="화"
+                android:textOn="화"
+                app:layout_constraintBottom_toTopOf="@+id/day_Guide2"
+                app:layout_constraintEnd_toStartOf="@+id/day_Wed"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintStart_toEndOf="@+id/day_Mon"
+                app:layout_constraintTop_toTopOf="@+id/day_Guide1"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <ToggleButton
+                android:id="@+id/day_Wed"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/day_button_state"
+                android:textColor="@drawable/day_button_text"
+                android:textOff="수"
+                android:textOn="수"
+                app:layout_constraintBottom_toTopOf="@+id/day_Guide2"
+                app:layout_constraintEnd_toStartOf="@+id/day_Thu"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintStart_toEndOf="@+id/day_Tue"
+                app:layout_constraintTop_toTopOf="@+id/day_Guide1"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <ToggleButton
+                android:id="@+id/day_Thu"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/day_button_state"
+                android:textColor="@drawable/day_button_text"
+                android:textOff="목"
+                android:textOn="목"
+                app:layout_constraintBottom_toTopOf="@+id/day_Guide2"
+                app:layout_constraintEnd_toStartOf="@+id/day_Fri"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintStart_toEndOf="@+id/day_Wed"
+                app:layout_constraintTop_toTopOf="@+id/day_Guide1"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <ToggleButton
+                android:id="@+id/day_Fri"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/day_button_state"
+                android:textColor="@drawable/day_button_text"
+                android:textOff="금"
+                android:textOn="금"
+                app:layout_constraintBottom_toTopOf="@+id/day_Guide2"
+                app:layout_constraintEnd_toStartOf="@+id/day_Sat"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintStart_toEndOf="@+id/day_Thu"
+                app:layout_constraintTop_toTopOf="@+id/day_Guide1" />
+
+            <ToggleButton
+                android:id="@+id/day_Sat"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/day_button_state"
+                android:textColor="@drawable/day_button_text"
+                android:textOff="토"
+                android:textOn="토"
+                app:layout_constraintBottom_toTopOf="@+id/day_Guide2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintStart_toEndOf="@+id/day_Fri"
+                app:layout_constraintTop_toTopOf="@+id/day_Guide1"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/day_Guide1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.23" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/day_Guide2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="53dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
