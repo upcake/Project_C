@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/cloud"
+    >
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text=" 복 용 기 록 달 력  "
+        android:textSize="18sp"
+        android:fontFamily="@font/nanumsquareroundeb"/>
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:fontFamily="@font/nanumsquareroundeb"
+        android:text="2020년 08월"
+        android:textSize="24sp" />
+
+    <com.github.sundeepk.compactcalendarview.CompactCalendarView
+        android:id="@+id/calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="206dp"
+        android:layout_below="@+id/text2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:paddingLeft="10dp"
+
+
+        android:paddingRight="10dp"
+        app:compactCalendarBackgroundColor="#00FFFFFF"
+        app:compactCalendarCurrentDayBackgroundColor="#8DCEFB"
+        app:compactCalendarCurrentSelectedDayBackgroundColor="#FACBD3"
+        app:compactCalendarEventIndicatorStyle="fill_large_indicator"
+        app:compactCalendarMultiEventIndicatorColor="#8DCEFB"
+        app:compactCalendarTargetHeight="250dp"
+        app:compactCalendarTextColor="#000000"
+        app:compactCalendarTextSize="15dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/time"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calendar"
+        android:layout_alignLeft="@id/calendar"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_toStartOf="@+id/editText"
+        android:layout_toLeftOf="@+id/editText"
+        android:background="#00AAF8"
+        android:text="시간"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:fontFamily="@font/nanumsquareroundb"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calendar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:fontFamily="@font/nanumsquareroundb"
+        android:hint="날짜시간 선택후 입력하기"
+        android:textColor="#686767"
+        android:textSize="18sp"
+
+        />
+
+    <Button
+        android:id="@+id/input"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calendar"
+        android:layout_alignRight="@id/calendar"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/editText"
+        android:layout_toRightOf="@+id/editText"
+        android:background="#00AAF8"
+        android:text="입력"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:fontFamily="@font/nanumsquareroundb"/>
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="349dp"
+        android:layout_height="193dp"
+        android:layout_below="@+id/input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+
+        >
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="282dp"
+            android:layout_height="196dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nanumsquareroundb"
+            android:text=""
+            android:textAllCaps="false"
+            android:textColor="#686767"
+            android:textSize="23sp"
+            android:background="?attr/selectableItemBackground"
+            />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/adbtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/scrollView"
+        android:layout_marginTop="36dp"
+        android:layout_weight="1"
+        android:text="연락처 추가하기"
+        android:textSize="24dp"
+        android:fontFamily="@font/nanumsquareroundb"/>
+
+
+
+
+
+</RelativeLayout>

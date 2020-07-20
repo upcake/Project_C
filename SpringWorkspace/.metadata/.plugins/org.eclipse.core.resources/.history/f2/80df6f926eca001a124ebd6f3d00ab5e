@@ -1,0 +1,35 @@
+package com.csslect.app.dto;
+
+public class NaverMemberDTO {
+	private String naver_email;
+	private String naver_nickname;
+	
+	//데이터베이스에 멤버정보를 추가할때
+	public NaverMemberDTO(String naver_email, String naver_nickname) {
+		super();
+		this.naver_email = naver_email;
+		this.naver_nickname = naver_nickname;
+	}
+
+	//Getters & Setters
+	public String getNaver_email() {
+		return naver_email;
+	}
+
+	public void setNaver_email(String naver_email) {
+		this.naver_email = naver_email;
+	}
+
+	public String getNaver_nickname() {
+		return naver_nickname;
+	}
+
+	public void setNaver_nickname(String naver_nickname) {
+		this.naver_nickname = naver_nickname;
+	}
+	
+	
+	
+	
+
+}

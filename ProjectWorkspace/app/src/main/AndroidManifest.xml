@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.auto_medic">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <!--android:name="androidx.multidex.MultiDexApplication"-->
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:name=".GlobalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar"
+
+        android:usesCleartextTraffic="true">
+
+
+
+        <!--노혜지-->
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true"></service>
+        <activity android:name=".LoadingActivity2"/>
+        <activity android:name=".EmergencyContactActivity"/>
+        <activity android:name=".EmergencyAddressActivity"/>
+        <activity android:name=".DeviceSettingActivity"/>
+        <activity android:name=".CalendarActivity"/>
+        <activity android:name=".AddressSettingActivity"/>
+
+        <!--조수연-->
+        <activity android:name=".LoginFindPw"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".LoadingActivity" />
+        <activity android:name=".JoinActivity" />
+        <activity android:name=".SocialLoginActivity" />
+        <activity android:name=".FirstLoadingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--박형규-->
+        <activity android:name=".MedicineInfoActivity"></activity>
+        <activity android:name=".SearchMedicineActivity"></activity>
+        <activity android:name=".MapActivity" ></activity>
+
+        <!--이범우-->
+        <activity android:name=".BluetoothActivity" />
+        <activity android:name=".MyInfoActivity" />
+        <activity android:name=".AddAlarmActivity" />
+        <activity android:name=".AlarmUpdateActivity" />
+        <activity android:name=".AlarmRingingActivity" />
+        <activity android:name=".MainActivity"></activity>
+        <service android:name=".RingtonePlayingService" android:enabled="true" />
+        <!--  API24 이상부터 Url 이 file:// 로 시작되면 안되서 content:// 으로 변환시키는 부분
+  -->
+        <provider android:authorities="${applicationId}.fileprovider" android:name="androidx.core.content.FileProvider" android:exported="false" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/filepaths" />
+        </provider>
+
+        <!--박형규-->
+        <!--
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="dfad18acfdedf55dc41d1001d4fabd06" />
+        -->
+        <!--조수연-->
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="@string/kakao_app_key" />
+
+        <uses-library
+            android:name ="org.apache.http.legacy"
+            android:required ="false"/>
+    </application>
+
+
+</manifest>
