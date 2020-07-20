@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    tools:context=".MedicineInfoActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <!--홀수의 텍스트뷰는 항목명, 짝수의 텍스튜뷰는 파싱해서 가져오는 값-->
+
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#C6DFD6"
+        >
+
+        <ImageView
+            android:id="@+id/medicineImg"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/who" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_gravity="bottom"
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+
+           <!--<androidx.viewpager.widget.PagerTabStrip
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#44E9F8"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+               android:textAppearance="@style/PagerTabStripText"
+               />-->
+
+            <androidx.viewpager.widget.PagerTitleStrip
+                android:id="@+id/pager_title_strip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:textColor="#ffffff"
+                android:background="#C6DFD6">
+
+            </androidx.viewpager.widget.PagerTitleStrip>
+
+        </androidx.viewpager.widget.ViewPager>
+    </LinearLayout>
+
+
+
+</LinearLayout>
