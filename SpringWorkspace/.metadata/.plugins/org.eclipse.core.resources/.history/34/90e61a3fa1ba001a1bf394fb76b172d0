@@ -1,5 +1,0 @@
-package com.csslect.app.command;
-
-public class AKakaoLoginCommand {
-
-}

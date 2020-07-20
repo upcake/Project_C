@@ -1,7 +1,0 @@
-INDEX VERSION 1.131
-D:\Study_Android\My_Project\SpringWorkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3068942022.index
-\AnSpring_App\src\main\java
-D:\ChossLec\Android_190822\AndroidProject\AnMulti_RecyclerView_Onclick_190905\SpringWorkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3068942022.index
-\AnSpring_App\src\main\java
-D:\ChossLec\Android_191107\AndroidProject\My_Project\SpringWorkspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3068942022.index
-\AnSpring_App\src\main\java
